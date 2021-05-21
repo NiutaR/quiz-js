@@ -1,0 +1,20 @@
+import React from 'react';
+import { BoxContainer, FormContainer, Input, MutedLink, SubmitButton } from './common';
+import { Marginer } from './marginer/index';
+
+
+const LoginForm = (props) => {
+    return (
+
+        <BoxContainer>
+            <FormContainer>
+                <Input type='email' placeholder='Email' />
+                <Input type='password' placeholder='Password' />
+            </FormContainer>
+        </BoxContainer>
+    );
+}
+
+
+export default LoginForm;
+
